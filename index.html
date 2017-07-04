@@ -38,11 +38,11 @@
 
 	<!-- ====================================================
 	header section -->
-	<header class="top-header" style="background: rgb(24, 23, 29);">
+	<header class="top-header" style="background-color:rgb(24, 23, 29)">
 		<div class="container">
 			<div class="row">
 				<!-- nav starts here -->
-				<div class="col-md-12">					
+				<div class="col-md-12">
                     <nav class="navbar navbar-default navbar-fixed-top">
                       <div class="container">
 						    <div class="navbar-header">
@@ -96,87 +96,91 @@
                      <div class="panel-heading heading-o">
                 <h3 class="panel-title">search for a setter</h3>
             </div>
-              
-              <div class="panel-body">
+
+<div class="panel-body">
 
 	<div class="row">
 	  <form role="form">
         <div class="form-group col-xs-12 col-sm-6 col-md-6 col-lg-6">
             <label for="Name"><h4>Name:</h4></label>
-            <input type="email" class="form-control" id="name" placeholder="First Name / Last Name">
+            <input type="text" class="form-control" id="name" placeholder="First Name / Last Name">
         </div>
         <div class="form-group col-xs-12 col-sm-6 col-md-6 col-lg-6">
             <label for="Email"><h4>Email Address</h4></label>
-            <input type="text" class="form-control" id="email" placeholder="@ Email Address">
+            <input type="email" class="form-control" id="email" placeholder="@ Email Address">
         </div>
         <div class="clearfix"></div>
         <div class="form-group col-xs-12 col-sm-6 col-md-6 col-lg-6">
             <label for="Address"><h4>Address/City/Zip Code:</h4></label>
-            <input type="password" class="form-control" id="address" placeholder="Address/City/Zip Code">
+            <input type="text" class="form-control" id="address" placeholder="Address/City/Zip Code">
         </div>
         <div class="form-group col-xs-12 col-sm-6 col-md-6 col-lg-6">
             <label for="Miles"><h4>Miles from You:</h4></label>
                   <input class="form-control" id="years-input" type="number">
         </div>
-        <h4>Service Type:</h4>
-                  <div class="btn-group btn-group-justified" role="Service" data-toggle="buttons">
-                          <label class="btn btn-default">
-                              <input name="serviceType" type="radio" value="Boarding">Boarding
-                          </label>
-                          <label class="btn btn-default">
-                              <input name="serviceType" type="radio" value="House Sitting">House Sitting
-                          </label>
-                          <label class="btn btn-default">
-                              <input name="serviceType" type="radio" value="Drop-In Visits">Drop-In Visits
-                          </label>
-                          <label class="btn btn-default">
-                              <input name="serviceType" type="radio" value="Day Care">Day Care
-                          </label>
-                  </div>
-                <h4>Pet Type:</h4>
-                  <div class="btn-group btn-group-justified" role="Type" data-toggle="buttons">
-                      <label class="btn btn-default">
-                          <input name="petType" type="radio" value="Dog">Dog
-                      </label>
-                      <label class="btn btn-default">
-                          <input name="petType" type="radio" value="Cat">Cat
-                      </label>
-                      <label class="btn btn-default">
-                          <input name="petType" type="radio" value="Reptile">Reptile
-                      </label>
-                      <label class="btn btn-default">
-                          <input name="petType" type="radio" value="Fish">Fish
-                      </label>
-                      <label class="btn btn-default">
-                          <input name="petType" type="radio" value="Bird">Bird
-                      </label>
-                  </div>
+        <div class="form-group col-xs-12 col-sm-12 col-md-12 col-lg-12">
+          <h4>Service Type:</h4>
+                    <div class="btn-group btn-group-justified" role="Service" data-toggle="buttons">
+                            <label class="btn btn-default">
+                                <input name="serviceType" type="radio" value="Boarding">Boarding
+                            </label>
+                            <label class="btn btn-default">
+                                <input name="serviceType" type="radio" value="House Sitting">House Sitting
+                            </label>
+                            <label class="btn btn-default">
+                                <input name="serviceType" type="radio" value="Drop-In Visits">Drop-In Visits
+                            </label>
+                            <label class="btn btn-default">
+                                <input name="serviceType" type="radio" value="Day Care">Day Care
+                            </label>
+                    </div>
+                  <h4>Pet Type:</h4>
+                    <div class="btn-group btn-group-justified" role="Type" data-toggle="buttons">
+                        <label class="btn btn-default">
+                            <input name="petType" type="radio" value="Dog">Dog
+                        </label>
+                        <label class="btn btn-default">
+                            <input name="petType" type="radio" value="Cat">Cat
+                        </label>
+                        <label class="btn btn-default">
+                            <input name="petType" type="radio" value="Reptile">Reptile
+                        </label>
+                        <label class="btn btn-default">
+                            <input name="petType" type="radio" value="Fish">Fish
+                        </label>
+                        <label class="btn btn-default">
+                            <input name="petType" type="radio" value="Bird">Bird
+                        </label>
+                    </div>
 
 
-                <h4>Pet Size(in pounds):</h4>
-                  <div class="btn-group btn-group-justified" role="Size" data-toggle="buttons">
-                      <label class="btn btn-default">
-                          <input name="petType" type="radio" value="0-15lbs">0-15
-                      </label>
-                      <label class="btn btn-default">
-                          <input name="petType" type="radio" value="16-40lbs">16-40
-                      </label>
-                      <label class="btn btn-default">
-                          <input name="petType" type="radio" value="41-70lbs">41-70
-                      </label>
-                      <label class="btn btn-default">
-                          <input name="petType" type="radio" value="71-101lbs">71-101
-                      </label>
-                      <label class="btn btn-default">
-                          <input name="petType" type="radio" value="101lbs+">101+
-                      </label>
-                  </div>
-					<button class="download-btn">sign up</button>
-					<button class="features-btn">search setters</button>
+                  <h4>Pet Size(in pounds):</h4>
+                    <div class="btn-group btn-group-justified" role="Size" data-toggle="buttons">
+                        <label class="btn btn-default">
+                            <input name="petSize" type="radio" value="0-15lbs">0-15
+                        </label>
+                        <label class="btn btn-default">
+                            <input name="petSize" type="radio" value="16-40lbs">16-40
+                        </label>
+                        <label class="btn btn-default">
+                            <input name="petSize" type="radio" value="41-70lbs">41-70
+                        </label>
+                        <label class="btn btn-default">
+                            <input name="petSize" type="radio" value="71-101lbs">71-101
+                        </label>
+                        <label class="btn btn-default">
+                            <input name="petSize" type="radio" value="101lbs+">101+
+                        </label>
+                    </div>
+						<button class="download-btn">sign up</button>
+						<button class="features-btn">search setters</button>
+        </div>
+
+
               </form>
             </div>
           </div>
-        </div>    
+        </div>
     </div>
 
     <!-- details section -->
@@ -198,9 +202,9 @@
 					</ul>
 				</div>
 			</div>
-		</div>  
+		</div>
 	</section>
-</section>    
+</section>
     <!-- end of details section -->
     	<section class="feature-detail" id="about">
 		<div class="container">
